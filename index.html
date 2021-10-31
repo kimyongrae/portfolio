@@ -23,6 +23,7 @@
 	<link rel="stylesheet" type="text/css" href="css/template.css" />
 
 	<style>
+
 		#nino-headerInner {
 		  background:  linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(images/intro.jpg) no-repeat center center fixed;
 		  -webkit-background-size: cover;
@@ -35,27 +36,26 @@
 		}
 
 		#work_body{
-			width:98%;
+			width:99%;
 			margin: 0 auto;
 		}
 
 		#mywork{
 			width:100%;
-			height: auto;
+			height:auto;
 		}
 
 		.myworkImage{
 			width:24.8%;
 			height:auto;
 			display:inline-block;
-			min-width: 440px;
+			min-width: 320px;
+			max-width: 100%;
 		}
 
 		.imgBox{
 			height:400px;
 			width:100%;
-			/* background:url("./images/our-work/img-3.jpg"); */
-			background-size:cover;
 			text-align: center;
 		}
 
@@ -80,6 +80,7 @@
 		}
 
 
+
 	</style>
 
 </head>
@@ -94,6 +95,12 @@
 
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nino-navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+					</button>
 						<a class="navbar-brand" href="#">protofolio</a>
 					</div>
 
@@ -226,8 +233,8 @@
 		<div id="mywork">
 			<div id="work_body">
 
-				<div class="myworkImage">
-					<div class="imgBox" style="background:url(./images/app/pairing.png) no-repeat; background-size: cover; width:100%;">
+				<div class="myworkImage" >
+					<div class="imgBox" style="background:url(./images/app/pairing.png) no-repeat; background-size:cover; ">
 						<div class="image_text" style="display: table; height: 100%; overflow: hidden;">
 							<a href="https://play.google.com/store/apps/details?id=com.best.kim.appcardgame" style="display: table-cell; vertical-align: middle;">
 								<h1>캐릭터 짝 맞추기</h1>
@@ -239,7 +246,7 @@
 
 
 				<div class="myworkImage">
-					<div class="imgBox" style="background:url(./images/app/placeKock.png) no-repeat; background-size: cover; width:100%;">
+					<div class="imgBox" style="background:url(./images/app/placeKock.png) no-repeat; background-size:cover; ">
 						<div class="image_text" style="display: table; height: 100%; overflow: hidden;">
 							<a href="https://play.google.com/store/apps/details?id=kyr.company.kyr_place_visit_last_no_in_app.free.release" style="display: table-cell; vertical-align: middle;">
 								<h1>방쿡</h1>
@@ -250,7 +257,7 @@
 				</div>
 
 				<div class="myworkImage">
-					<div class="imgBox" style="background:url(./images/app/work.png) no-repeat; background-size: cover; width:100%; ">
+					<div class="imgBox" style="background:url(./images/app/work.png) no-repeat; background-size:cover;">
 						<div class="image_text" style="display: table; height: 100%; overflow: hidden;">
 							<a href="#" style="display: table-cell; vertical-align: middle;">
 								<h1>작업중</h1>
@@ -261,51 +268,7 @@
 				</div>
 
 				<div class="myworkImage">
-					<div class="imgBox" style="background:url(./images/app/work.png) no-repeat; background-size: cover; width:100%;">
-						<div class="image_text" style="display: table; height: 100%; overflow: hidden;">
-							<a href="#" style="display: table-cell; vertical-align: middle;">
-								<h1>작업중</h1>
-								<p></p>
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="myworkImage">
-					<div class="imgBox" style="background:url(./images/app/work.png) no-repeat; background-size: cover; width:100%;">
-						<div class="image_text" style="display: table; height: 100%; overflow: hidden;">
-							<a href="#" style="display: table-cell; vertical-align: middle;">
-								<h1>작업중</h1>
-								<p></p>
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="myworkImage">
-					<div class="imgBox" style="background:url(./images/app/work.png) no-repeat; background-size: cover; width:100%;">
-						<div class="image_text" style="display: table; height: 100%; overflow: hidden;">
-							<a href="#" style="display: table-cell; vertical-align: middle;">
-								<h1>작업중</h1>
-								<p></p>
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="myworkImage">
-					<div class="imgBox" style="background:url(./images/app/work.png) no-repeat; background-size: cover;">
-						<div class="image_text" style="display: table; height: 100%; overflow: hidden;">
-							<a href="#" style="display: table-cell; vertical-align: middle;">
-								<h1>작업중</h1>
-								<p></p>
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="myworkImage">
-					<div class="imgBox" style="background:url(./images/app/work.png) no-repeat; background-size: cover;">
+					<div class="imgBox" style="background:url(./images/app/work.png) no-repeat; background-size:cover;">
 						<div class="image_text" style="display: table; height: 100%; overflow: hidden;">
 							<a href="#" style="display: table-cell; vertical-align: middle;">
 								<h1>작업중</h1>
