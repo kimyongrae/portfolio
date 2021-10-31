@@ -19,51 +19,122 @@
 	<link rel="stylesheet" type="text/css" href="css/unslider.css" />
 	<link rel="stylesheet" type="text/css" href="css/template.css" />
 
-<style>
-#nino-headerInner {
-  background:  linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(images/intro.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-	background-color: black;
-	opacity: 0.9;
-}
+	<style>
+		#nino-headerInner {
+		  background:  linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(images/intro.jpg) no-repeat center center fixed;
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+			background-color: black;
+			opacity: 0.9;
+		}
+
+		#work_body{
+			width:95%;
+			margin: 0 auto;
+		}
+
+		#mywork{
+			width:100%;
+			height: auto;
+		}
+
+		.myworkImage{
+			width:24.5%;
+			display:inline-block;
+		}
+
+		.imgBox{
+			height:300px;
+			width:100%;
+			background:url("./images/our-work/img-3.jpg");
+			background-size:cover;
+			text-align: center;
+		}
+
+		.image_text{
+			opacity: 0;
+			width: 100%;
+			height: 100%;
+			background: black; //검정색
+		}
+
+		.image_text a{
+			width: 100%;
+			color: #ffffff;
+		}
+
+		.imgBox:hover .image_text{
+				background:rgba(0,0,0,.7);
+				opacity:1;
+		}
+
+		/* .imgBox:hover .image_text a{
+				background:rgba(0,0,0,.7);
+				opacity:1;
+				text-align: center;
+				vertical-align: middle;
+				color: #ffffff
+		} */
+
+		/* .text p{
+			height: 300px;
+		}
+
+		.imgBox:hover .text{
+				background:rgba(0,0,0,.7);
+				opacity:1;
+				text-align: center;
+				vertical-align: middle;
+				color: #ffffff
+		} */
 
 
-#work_body{
-	width:95%;
-	margin: 0 auto;
-}
+		/* .imgBox {
+				width:100%;
+				height:300px;
+		    margin:5px;
+		    display:inline-block;
+		    text-align:center;
+		    background-repeat:no-repeat;
+		    background-position:50% 50%;
+		}
 
-#mywork{
-	width:100%;
-	height: auto;
-}
+		.imgBox a{
+				width:100%;
+				height:300px;
+				text-align:center;
+		    display:table;
+		    vertical-align:middle;
+		    color:#fff;
+		    transition:all .3s ease;
+		    -moz-transition:all .3s ease;
+		    -webkit-transition:all .3s ease;
+		    opacity:0;
+		}
 
-#over{
-	background:black;
-}
+		.imgBox a:hover {
+		    background:rgba(0,0,0,.7);
+		    opacity:1;
+		}
+
+		.image1 {
+				height: 300px;
+				width: 100%;
+				display:inline-block;
+		    background-image:url("./images/our-work/img-3.jpg");
+		} */
+
+		/* .image2 {
+				height: 300px;
+				width: 100%;
+				display:inline-block;
+		    background-image:url("http://gi.esmplus.com/leston/domtype/blog/2018/0421/02.jpg");
+		} */
 
 
-#myworkImage{
-	width:24.8%;
-	display:inline-block;
-}
-
-#myworkImage div img{
-	width:100%;
-	margin:3px;
-}
-
-.bg1 { background-color:#EFEFEF; }
-.bg2 { background-color:#FFFFFF; }
-
-</style>
-
-
-
-
+	</style>
 
 </head>
 
@@ -209,37 +280,62 @@
 			<h2 class="nino-sectionHeading">
 				My Work
 			</h2>
-			<!-- <p class="nino-sectionDesc">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-			</p> -->
+
 		</div>
 
 		<div id="mywork">
 			<div id="work_body">
-				<div id="myworkImage" onmouseover="mouse_over()" onmouseout="mouse_out()" >
-					<div>
-						<a href="https://www.naver.com"><img src="images/our-work/img-2.jpg"/></a>
+
+				<div class="myworkImage">
+					<div class="imgBox">
+						<div class="image_text" style="display: table; height: 100%; overflow: hidden;">
+							<a href="https://www.naver.com" style="display: table-cell; vertical-align: middle;">porsche 911 GTS Modelsasdsadsadsadsadasdsadsadadsadsad</a>
+						</div>
 					</div>
 				</div>
-				<div id="myworkImage">
-					<div><a href="https://www.naver.com"><img src="images/our-work/img-2.jpg"/></a></div>
-				</div>
-				<div id="myworkImage">
-					<div><a href="https://www.naver.com"><img src="images/our-work/img-2.jpg"/></a></div>
-				</div>
-				<div id="myworkImage">
-					<div><a href="https://www.naver.com"><img src="images/our-work/img-2.jpg"/></a></div>
-				</div>
-				<div id="myworkImage">
-					<div><a href="https://www.naver.com"><img src="images/our-work/img-2.jpg"/></a></div>
+
+
+				<div class="myworkImage">
+					<div class="imgBox">
+						<div class="image_text" style="display: table; height: 100%; overflow: hidden;">
+							<a href="https://www.naver.com" style="display: table-cell; vertical-align: middle;">porsche 911 GTS Modelsasdsadsadsadsadasdsadsadadsadsad</a>
+						</div>
+					</div>
 				</div>
 
-				<div id="myworkImage">
-					<div><a href="https://www.naver.com"><img src="images/our-work/img-2.jpg"/></a></div>
+				<div class="myworkImage">
+					<div class="imgBox">
+						<div class="image_text" style="display: table; height: 100%; overflow: hidden;">
+							<a href="https://www.naver.com" style="display: table-cell; vertical-align: middle;">porsche 911 GTS Modelsasdsadsadsadsadasdsadsadadsadsad</a>
+						</div>
+					</div>
 				</div>
+
+				<div class="myworkImage">
+					<div class="imgBox">
+						<div class="image_text" style="display: table; height: 100%; overflow: hidden;">
+							<a href="https://www.naver.com" style="display: table-cell; vertical-align: middle;">porsche 911 GTS Modelsasdsadsadsadsadasdsadsadadsadsad</a>
+						</div>
+					</div>
+				</div>
+
 
 			</div>
 		</div>
+		<!-- <div>
+			<a href="https://www.naver.com"><img src="images/our-work/img-2.jpg"/></a>
+		</div> -->
+
+
+		<!-- <div class="imgBox image1">
+				<a href="#">porsche 911 GTS Models</a>
+		</div>
+
+		<div class="imgBox image2">
+				<a href="#">porsche 911 Targa 4 Models</a>
+		</div> -->
+
+
 	</section>
 
   <br><br>
@@ -292,19 +388,7 @@
     ================================================== -->
 	<a href="#" id="nino-scrollToTop">Go to Top</a>
 
-	<script type="text/javascript">
 
-	function mouse_over(){
-		console.log("마우스가 오버 됩니다.");
-
-	}
-
-	function mouse_out(){
-		console.log("마우스가 이탈합니다.");
-
-	}
-
-	</script>
 	<!-- javascript -->
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
